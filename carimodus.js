@@ -60,7 +60,7 @@ function cariModus(arr) {
         return -1
     } else return arr[idx]
 
-    }  
+}  
 
 
 

@@ -10,19 +10,27 @@ function cariModus(arr) {
     }
     var max = 0
     var number = 0
+    var objLength = 0
     for (key in outputMode) {
+        objLength += 1
         if (outputMode[key] > max) {
             max = outputMode[key]
             number = key
-        } else if (outputMode[key] === 1) {
-            
         }
     }
     // console.log(max)
-    console.log(number)
-    console.log(outputMode)
-   
-}
+    if ( max === 1) {
+        return - 1
+    } else if (objLength === 1) {
+        return -1
+    } else return number
+        
+        console.log(number)
+        console.log('-------')
+        // console.log(outputMode)
+       
+    }
+
         
     
 
