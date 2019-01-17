@@ -17,10 +17,9 @@ function highestScore (students) {
                 outputObj[students[i].class].score = students[i].score
                 outputObj[students[i].class].name = students[i].name
             }
-
         }
     }
-    console.log(outputObj, 'sblm loop 2')
+    return outputObj
 }
     
     // for (var j = 0; j < students.length ;j++) {
