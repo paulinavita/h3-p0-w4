@@ -1,5 +1,5 @@
 function ubahHuruf(kata) {
-    alph = 'abcdefhgijklmnopqrstuvwxyz'
+    var alph = 'abcdefhgijklmnopqrstuvwxyz'
   
   var tampung = ''
   

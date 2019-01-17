@@ -1,9 +1,5 @@
 function highestScore (students) {
     
-    arrNama = []
-    arrScore = []
-   
-
     outputObj = {};
     for (var i = 0; i < students.length ;i++) {
        

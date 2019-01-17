@@ -1,7 +1,7 @@
 function cariMedian(arr) {
-    panjang = arr.length 
-    indeksGanjil = Math.ceil((arr.length/2) - 1)
-    indeksGenap = (arr[arr.length/2 - 1]) + (arr[(arr.length/2)])
+    var panjang = arr.length 
+    var indeksGanjil = Math.ceil((arr.length/2) - 1)
+    var indeksGenap = (arr[arr.length/2 - 1]) + (arr[(arr.length/2)])
   
     if (panjang % 2 !== 0) {
       median = arr[indeksGanjil]

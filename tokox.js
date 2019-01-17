@@ -4,7 +4,7 @@ function countProfit(shoppers) {
                        ['Sweater Uniklooh', 175000, 1]
                      ];
   
-    shoppingRes = []
+    var shoppingRes = []
     for (var i=0; i < listBarang.length ;i++) {
         shoppingCart = {};
         shoppingCart.product = listBarang[i][0]

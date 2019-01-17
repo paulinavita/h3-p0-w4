@@ -1,6 +1,6 @@
 function tukarBesarKecil(kalimat) {
   
-    baru = ''  
+    var baru = ''  
       for (i = 0; i<kalimat.length; i++){
         if (kalimat[i] == kalimat[i].toUpperCase()) {
           baru += kalimat[i].toLowerCase()

@@ -19,7 +19,7 @@ function urutkanAbjad(str) {
     var urut = pecah
     // console.log(urut)
     
-    join = ''
+    var join = ''
     for (l=0; l < urut.length ;l++) {
       join += urut[l]
     }

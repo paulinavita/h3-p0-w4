@@ -1,5 +1,5 @@
 function shoppingTime(memberId, money) {
-    saleLists = [ 
+    var saleLists = [ 
         ['sepatu stacattu', 1500000],
         ['baju zoro', 500000],
         ['baju H&N', 250000],
@@ -7,7 +7,7 @@ function shoppingTime(memberId, money) {
         ['casing handphone', 50000]
         ]  
 
-    printLists = {}
+    var printLists = {}
     
     if (memberId == '') {
         return 'Mohon maaf, toko X hanya berlaku untuk member saja'

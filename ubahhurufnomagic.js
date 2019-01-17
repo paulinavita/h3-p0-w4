@@ -1,7 +1,7 @@
 function ubahHuruf(kata) {
-    alph = 'abcdefhgijklmnopqrstuvwxyz'
+    var alph = 'abcdefhgijklmnopqrstuvwxyz'
   
-  var tampung = ''
+    var tampung = ''
   
     for (i = 0; i < kata.length ;i++){ //diloop sepanjang kata biar ga kebalik
         for (j = 0; j <  alph.length ;j++) {

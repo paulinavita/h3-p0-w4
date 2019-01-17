@@ -1,7 +1,7 @@
 function deepSum (arr) {
 //bentuk normal : [ [ [] [] [] ], [ [] [] [] ], [ [] [] [] ] ]
 
-res = 0 //hati2. klo u assign res as [], nanti jadinya ke add terus sm string [i][j[k]
+var res = 0 //hati2. klo u assign res as [], nanti jadinya ke add terus sm string [i][j[k]
 //hasilnya constitutive series of nums
   if (arr.length === 0) {
     return 'no number'
