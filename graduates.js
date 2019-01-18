@@ -7,7 +7,10 @@
 
 function graduates (students) {
     
-   
+    if (students.length === 0) {
+      return {}
+    } 
+
     var outputObj = {}
     for (var i = 0; i < students.length ;i++) {
         if (!outputObj[students[i].class]) {
@@ -21,7 +24,8 @@ function graduates (students) {
         }
         
     }
-    console.log(outputObj)
+    return outputObj
+    
 }
     
 
@@ -60,33 +64,33 @@ function graduates (students) {
   //   ]
   // }
   
-//   console.log(graduates([
-//     {
-//       name: 'Alexander',
-//       score: 100,
-//       class: 'foxes'
-//     },
-//     {
-//       name: 'Alisa',
-//       score: 76,
-//       class: 'wolves'
-//     },
-//     {
-//       name: 'Vladimir',
-//       score: 92,
-//       class: 'foxes'
-//     },
-//     {
-//       name: 'Albert',
-//       score: 71,
-//       class: 'wolves'
-//     },
-//     {
-//       name: 'Viktor',
-//       score: 80,
-//       class: 'tigers'
-//     }
-//   ]));
+  console.log(graduates([
+    {
+      name: 'Alexander',
+      score: 100,
+      class: 'foxes'
+    },
+    {
+      name: 'Alisa',
+      score: 76,
+      class: 'wolves'
+    },
+    {
+      name: 'Vladimir',
+      score: 92,
+      class: 'foxes'
+    },
+    {
+      name: 'Albert',
+      score: 71,
+      class: 'wolves'
+    },
+    {
+      name: 'Viktor',
+      score: 80,
+      class: 'tigers'
+    }
+  ]));
   
   // {
   //   foxes: [
@@ -102,4 +106,4 @@ function graduates (students) {
   // }
   
   
-//   console.log(graduates([])); //{}
+  console.log(graduates([])); //{}
